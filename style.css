@@ -58,6 +58,11 @@ body {
     line-height: 100%;
 }
 
+.text h2:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
 .price-time {
     display: flex;
     justify-content: space-between;
@@ -108,4 +113,9 @@ p, span {
 
 .creator span {
     color: var(--white);
+}
+
+.creator span:hover {
+    color: var(--cyan);
+    cursor: pointer;
 }

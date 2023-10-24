@@ -27,5 +27,15 @@ body {
 
 #app {
     background-color: var(--dark-blue-card-bg);
+    padding: 4.0rem;
+    border-radius: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.nft-img img {
+    width: 100%;
+    border-radius: 1.6rem;
 }
 

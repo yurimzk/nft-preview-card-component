@@ -33,3 +33,79 @@ body {
     flex-direction: column;
     gap: 4.0rem;
 }
+
+.nft-img img {
+    width: 100%;
+    border-radius: 1.6rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 4.0rem;
+}
+
+.text h2 {
+    color: var(--white);
+    font-size: 4.0rem;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.price-time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price, .time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.price p {
+    color: var(--cyan);
+    font-weight: 600;
+}
+
+.price img {
+    width: 20px;
+    height: 30px;
+}
+
+.time img {
+    width: 30px;
+    height: 30px;
+}
+
+p, span {
+    color: var(--soft-blue);
+    line-height: 160%;
+    font-size: 2.8rem;
+}
+
+.creator {
+    border-top: 1px solid var(--dark-blue-line);
+    padding: 2.4rem 0;
+    display: flex;
+    gap: 2.4rem;
+    align-items: center;
+}
+
+.creator img {
+    width: 70px;
+    height: 70px;
+    border: 2px solid var(--white);
+    border-radius: 50%;
+}
+
+.creator span {
+    color: var(--white);
+}

@@ -93,9 +93,9 @@ p, span {
 
 .creator {
     border-top: 1px solid var(--dark-blue-line);
-    padding: 2.4rem 0;
+    padding-top: 3.2rem;
     display: flex;
-    gap: 2.4rem;
+    gap: 3.2rem;
     align-items: center;
 }
 
